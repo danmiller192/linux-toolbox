@@ -1,0 +1,7 @@
+{
+    "gtkTitleBar.mode": "dark",
+    "window.titleBarStyle": "custom",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
+}
