@@ -1,5 +1,16 @@
 #!/bin/bash
 
+
+echo '============================================================================'
+echo 'Configuring Messaging Applications'
+echo '============================================================================'
+
+echo 'Installing Discord'
+yay -S discord --noconfirm --needed
+
+echo 'Installing Slack'
+flatpak install slack
+
 echo '============================================================================'
 echo 'Configuring Software Development Applications'
 echo '============================================================================'
@@ -24,6 +35,21 @@ sudo pacman -S gitg --noconfirm --needed
 
 echo 'Installing poetry'
 sudo pacman -S python-poetry --noconfirm --needed
+
+echo 'Installing nvm'
+yay -S nvm --noconfirm --needed
+
+echo 'Installing LmStudio'
+yay -S lmstudio --noconfirm --needed
+
+echo 'Installing PyCharm'
+yay -S pycharm-community-edition --noconfirm --needed
+
+echo 'Installing Intellij'
+yay -S intellij-idea-community-edition --noconfirm --needed
+
+echo 'Installing Podman'
+yay -S podman podman-compose podman-desktop-bin podman-docker --noconfirm --needed
 
 echo '============================================================================'
 echo 'Configuring Media Applications'
